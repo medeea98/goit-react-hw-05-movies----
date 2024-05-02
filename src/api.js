@@ -62,6 +62,7 @@ export const getMovieCredits = async (movieId) => {
     }
 };
 
+
 export const getMovieReviews = async (movieId) => {
     try {
         const response = await fetch(`https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=${apiKey}`);
